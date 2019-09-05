@@ -306,7 +306,7 @@ Plugin 'neomake/neomake'
 Plugin 'w0rp/ale'
 call vundle#end()
 
-let g:deoplete#enable_at_startup = 1
+let g:deoplete#enable_at_startup = 0
 call neomake#configure#automake('w')
 
 " Plugin key-mappings.
@@ -382,8 +382,8 @@ let g:deoplete#sources#ternjs#in_literal = 0
 let g:python3_host_prog = '/Users/sweaver/.neovimpython/bin/python'
 
 " Change clang binary path
-call deoplete#custom#var('clangx', 'clang_binary', '/usr/local/bin/clang')
+"call deoplete#custom#var('clangx', 'clang_binary', '/usr/local/bin/clang')
 
 " Change clang options
-call deoplete#custom#var('clangx', 'default_c_options', '')
-call deoplete#custom#var('clangx', 'default_cpp_options', '')
+"call deoplete#custom#var('clangx', 'default_c_options', '')
+"call deoplete#custom#var('clangx', 'default_cpp_options', '')

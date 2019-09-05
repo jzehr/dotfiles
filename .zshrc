@@ -7,7 +7,6 @@ export ZSH=$HOME/.oh-my-zsh
 alias history='history 1'
 alias sw='ssh ssh.phx.nearlyfreespeech.net -l maximumsteve_stevenweaver'
 alias ssh='ssh -A'
-alias vim='nvim'
 
 if [ `uname` = "Darwin" ]; then
   alias make="make -j `sysctl -n hw.ncpu`"
@@ -55,7 +54,7 @@ DISABLE_AUTO_UPDATE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
