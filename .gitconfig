@@ -18,8 +18,8 @@
 	prompt = false
 
 [github]
-    name = Steven Weaver
-    email = sweaver@temple.edu
+    name = Jordan Zehr
+    email = jordan.zehr@temple.edu
 [core]
 	editor = /usr/bin/vim
 	autocrlf = false
