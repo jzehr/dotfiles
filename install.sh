@@ -1,10 +1,12 @@
 git submodule init && git submodule update
 virtualenv ~/.neovimpython
 npm install -g tern
-rm ~/.config; ln -sf ~/.dotfiles/.config ~/.config
+#rm ~/.config; ln -sf ~/.dotfiles/.config ~/.config
+rm -rf ~/.config; ln -sf ~/.dotfiles/.config ~/.config
 rm ~/.bashrc; ln -sf ~/.dotfiles/.bashrc ~/.bashrc
 rm ~/.vimrc; ln -sf ~/.dotfiles/.vimrc ~/.vimrc
-rm ~/.vim; ln -sf ~/.dotfiles/.vim ~/.vim
+#rm ~/.vim; ln -sf ~/.dotfiles/.vim ~/.vim
+rm -rf ~/.vim; ln -sf ~/.dotfiles/.vim ~/.vim
 rm ~/.tmux.conf; ln -sf ~/.dotfiles/.tmux.conf ~/.tmux.conf
 rm ~/.zshrc; ln -sf ~/.dotfiles/.zshrc ~/.zshrc
 rm ~/.gitconfig; ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
